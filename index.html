@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقويم عام 2026</title>
+    <style>
+        /* تنسيق عام للصفحة */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            direction: rtl; /* لجعل النص من اليمين لليسار */
+        }
+
+        /* رأس الصفحة */
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            border-bottom: 4px solid #0a9396;
+        }
+
+        /* تنسيق المحتوى الرئيسي */
+        .content {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* عرض ملف PDF */
+        .pdf-container {
+            margin-top: 20px;
+            height: 600px; /* ارتفاع ثابت لعرض ملف PDF */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* تنسيق النص في حالة عدم دعم المتصفح لملف PDF */
+        .pdf-container p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* رابط تحميل الملف */
+        .pdf-container a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .pdf-container a:hover {
+            text-decoration: underline;
+        }
+
+        /* تنسيق footer */
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- رأس الصفحة -->
+    <header>
+        <h1>تقويم عام 2026</h1>
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <div class="content">
+        <div class="pdf-container">
+            <object data="2026.pdf" type="application/pdf" width="100%" height="100%">
+                <p>يبدو أن المتصفح لا يدعم عرض ملفات PDF. يمكنك تحميل الملف <a href="2026.pdf">من هنا</a>.</p>
+            </object>
+        </div>
+    </div>
+
+    <!-- التذييل -->
+    <footer>
+        <p>&copy; 2025 جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
